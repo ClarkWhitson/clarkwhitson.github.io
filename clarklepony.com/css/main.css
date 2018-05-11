@@ -1,0 +1,280 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+	font-family: 'Amatic SC', cursive;
+}
+
+/*Index Header*/
+
+.index .header {
+	background-color: grey;
+	height: auto;
+	border-bottom: black 3px solid;
+}
+
+.index .navbar-default {
+	background: none;
+	border: none;
+}
+
+.index .nav-pills {
+	float: right;
+}
+
+.index .nav-pills li a {
+	border-radius: 3px;
+	color: gray;
+	background-color: black;
+	width: 100px;
+	text-align: center;
+	font-weight: 800;
+	font-size: 25px;
+}
+
+.index .nav-pills li {
+	padding-left: 6px;
+}
+
+.index .nav-pills li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.index .navbar-default .navbar-brand {
+	color: #000;
+	font-size: 70px;
+	font-weight: 800;
+	text-shadow: 2px 2px #fff;
+}
+
+.index .navbar-default .navbar-brand:hover {
+    animation-name: 'pulse';
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.index .navbar {
+	margin-top: 15px;
+}
+
+
+/*Index Jumbotron*/
+
+.index .jumbotron {
+	background: url("../img/computerhorse.jpg") no-repeat center center;
+	height: 530px;
+	background-size: cover;
+	color: white;
+	text-shadow: 3px 3px #000;
+	margin-bottom: 0;
+	padding-top: 26px;
+	border-bottom: black 3px solid;
+
+}
+
+.index .jumbotron h1 {
+	line-height: 80%;
+	text-align: right;
+	font-weight: 600;
+	font-size: 56px;
+}
+
+.index .jumbotron .col-md-4 {
+	padding-left: 6px;
+}
+
+.index .jumbotron .left {
+	line-height: 85%;
+	text-align: left;
+}
+
+.index .jumbotron span {
+	font-size: 90px;
+	text-shadow: 4px 4px #000;
+	display: inline-block;
+}
+
+/*Index Section*/
+
+.index .section {
+	text-align: center;
+	height: auto;
+	border-bottom: black 3px solid;
+}
+
+.index .section h1 {
+	color: black;
+	font-weight: 600;
+}
+
+/*Index Footer*/
+
+.index .footer {
+	background: grey;
+	height: 100px;
+}
+
+.index .footer h1 {
+	color: black;
+	font-weight: 600;
+	margin: 0 auto;
+}
+
+/*Index Media Queries*/
+
+@media screen and (max-width: 769px) {
+    .index .nav-pills {
+    	float: none;
+    	padding-top: 15px;
+    	display: inline-block;
+    }
+
+    .index .nav-pills li {
+    	display: inline;
+    }
+
+    .index .nav-pills li a {
+    	float: left;
+    }
+
+    .navbar .navbar-default {
+    	text-align: center;
+    }
+
+    .header {
+    	text-align: center;
+    }
+
+
+
+    .index .navbar-header {
+    float: none;
+    padding: 15px;
+}
+    .index .navbar-brand {
+	float:none;
+ }
+
+    .index .jumbotron h1 {
+ 	font-size: 36px;
+ 	text-shadow: 2px 2px #000;
+ }
+
+    .index .jumbotron span {
+ 	font-size: 70px;
+ 	text-shadow: 2px 2px #000;
+ }
+
+}
+
+@media screen and (max-width: 490px) {
+
+  .index .nav-pills li a {
+    	font-size: 16px;
+    	width: 53px;
+    }
+
+  .index .jumbotron h1 {
+ 	font-size: 26px;
+ 	text-shadow: 2px 2px #000;
+ }
+
+  .index .jumbotron span {
+ 	font-size: 60px;
+ 	text-shadow: 2px 2px #000;
+ }
+
+
+}
+
+
+/*What is Header*/
+
+.what-is {
+  background: gray;
+}
+
+.what-is a {
+	text-decoration: none;
+	color: black;
+}
+
+.what-is .header {
+	text-align: center;
+	margin: auto;
+	border-bottom: black 3px solid;
+}
+
+.what-is .header h1 {
+	margin: 0px;
+	text-shadow: 2px 2px #BF4684;
+	font-weight: 800;
+	color: black;
+	font-size: 62px;
+
+}
+
+/*What is Jumbotron*/
+
+.what-is .jumbotron {
+  height: 477px;
+  margin: auto 0;
+  padding: 0;
+  background: url("../img/clarklepic.jpg") no-repeat center top ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #EDE6D4;
+  border-bottom: black 3px solid;
+
+}
+
+.what-is .jumbotron h1 {
+	margin: 10px 2px;
+	font-weight: 900;
+	font-size: 43px;
+	color: black;
+	text-shadow: 2px 2px 4px gray;
+}
+
+.what-is .jumbotron .col-xs-12 {
+	margin-bottom: 15px;
+}
+
+
+/*What is Footer*/
+
+.what-is .footer h1 {
+	text-align: center;
+	margin: auto 0;
+	font-size: 86px;
+	font-weight: 900;
+	text-shadow: 3px 3px #BF4684;
+	color: black;
+}
+
+.what-is .footer h1:hover {
+	animation-name: 'pulse';
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+.what-is .footer .col-xs-12 {
+	text-align: center;
+
+}
+
+/*What is Queries*/
+
+@media screen and (min-width: 769px) {
+
+.what-is .jumbotron h1 {
+	font-size: 66px;
+}
+
+}
